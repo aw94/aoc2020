@@ -58,9 +58,9 @@ namespace adventofcode.day5
 
         private static decimal FindMySeat(IList<decimal> seatIdList)
         {
-            for (int i = 0; i < seatIdList.Count; i++)
+            for (int i = 0; i < seatIdList.Count-1; i++)
             {
-                if (i != 0 && i != seatIdList.Count - 1 && seatIdList[i + 1] != seatIdList[i] + 1)
+                if (seatIdList[i + 1] != seatIdList[i] + 1)
                 {
                     return seatIdList[i] + 1;
                 }

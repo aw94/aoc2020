@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="day3\.idea\.idea.day3.dir\.idea\.idea.day3.dir.iml" />
+      <Content Include="day3\.idea\.idea.day3.dir\.idea\contentModel.xml" />
+      <Content Include="day3\.idea\.idea.day3.dir\.idea\encodings.xml" />
+      <Content Include="day3\.idea\.idea.day3.dir\.idea\indexLayout.xml" />
+      <Content Include="day3\.idea\.idea.day3.dir\.idea\misc.xml" />
+      <Content Include="day3\.idea\.idea.day3.dir\.idea\modules.xml" />
+      <Content Include="day3\.idea\.idea.day3.dir\.idea\projectSettingsUpdater.xml" />
+      <Content Include="day3\.idea\.idea.day3.dir\.idea\vcs.xml" />
+      <Content Include="day3\.idea\.idea.day3.dir\.idea\workspace.xml" />
+      <Content Include="day3\.idea\.idea.day3.dir\riderModule.iml" />
+      <Content Include="day5\.idea\.idea.day5.dir\.idea\.idea.day5.dir.iml" />
+      <Content Include="day5\.idea\.idea.day5.dir\.idea\contentModel.xml" />
+      <Content Include="day5\.idea\.idea.day5.dir\.idea\encodings.xml" />
+      <Content Include="day5\.idea\.idea.day5.dir\.idea\indexLayout.xml" />
+      <Content Include="day5\.idea\.idea.day5.dir\.idea\misc.xml" />
+      <Content Include="day5\.idea\.idea.day5.dir\.idea\modules.xml" />
+      <Content Include="day5\.idea\.idea.day5.dir\.idea\projectSettingsUpdater.xml" />
+      <Content Include="day5\.idea\.idea.day5.dir\.idea\vcs.xml" />
+      <Content Include="day5\.idea\.idea.day5.dir\.idea\workspace.xml" />
+      <Content Include="day5\.idea\.idea.day5.dir\riderModule.iml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

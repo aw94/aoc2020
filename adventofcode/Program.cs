@@ -8,7 +8,7 @@ namespace adventofcode
         public static void Main(string[] args)
         {
             var input = File.ReadAllLines("./input.txt");
-            var day5 = new day5part2(input);
+            var day5 = new day5part2alternative(input);
             day5.Solve();
         }
     }

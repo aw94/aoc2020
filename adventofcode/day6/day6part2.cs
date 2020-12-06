@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -31,7 +32,8 @@ namespace adventofcode.day6
 
         public void Solve()
         {
-            var count = Input.Select(t => t.Item1.Distinct().Count(chr => t.Item1.Length - t.Item1.Replace(chr.ToString(), "").Length == t.Item2)).ToList();
+            var count = Input.Select(t =>
+                t.Item1.Count(chr => t.Item1.Length - t.Item1.Replace(chr.ToString(), "").Length == t.Item2)).ToList();
             Console.WriteLine(count.Sum());
         }
     }
